@@ -3,6 +3,7 @@ import os
 import psycopg2
 
 app = Flask(__name__)
+app.config['DEBUG'] = True
 
 # Example route
 @app.route('/')
